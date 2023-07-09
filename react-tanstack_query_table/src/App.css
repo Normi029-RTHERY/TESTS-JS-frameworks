@@ -1,0 +1,30 @@
+table {
+    border-collapse: collapse;
+    background-color: #222;
+    border-radius: .75rem;
+    overflow: hidden;
+    box-shadow: 0px 0px .5rem hsl(0 0% 0% / 0.2);
+}
+
+td {
+    padding: .75rem;
+}
+
+th {
+    text-align: left;
+    padding: .75rem;
+}
+
+th,
+td {
+    padding-inline: 1.5rem calc(2rem - 24px);
+}
+
+tr {
+    box-shadow: 0px 2px 2px hsl(0 0% 0% / 0.3);
+}
+
+th,
+tr:nth-of-type(even) {
+    background-color: hsl(0 0% 0% / 0.075);
+}
